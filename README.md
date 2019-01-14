@@ -11,8 +11,8 @@ For this, we will implement a mealy statemachine as follows:
 
 ## Conventions
 - There are three states, "00","01" and "10"
-- state transitions are labeled event/output.
-  - e.g. in state "00", if event received (i.e. input is 0), transition is made to state "01", and the output generate is 0 (equivalent to false, i.e. 011 is not yet found)
+- state transitions are labeled as  < event >/< output >.
+  - e.g. in state "00", if event received (i.e. input is 0), transition is made to state "01", and the output generated is 0 (equivalent to false, i.e. 011 is not yet found)
   - on the other hand, if input event was 1, output is still false, but we still remain in state "00", because, no progress has been made towards the expected sequence.
 
 ## Implementation
