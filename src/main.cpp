@@ -21,7 +21,7 @@ int main()
   while(continue_flag)
   {
     char c;
-    std::cout << std::endl << "Enter 0 or 1 or 1 to quit ";
+    std::cout << std::endl << "Enter 0 or 1 or q to quit ";
     std::cin >> c;
 
     switch(c) {

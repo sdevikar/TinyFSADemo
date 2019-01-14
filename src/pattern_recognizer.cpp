@@ -11,6 +11,8 @@ using namespace std;
 
 class State01; //forward declaration
 class State10; //forward declaration
+
+
 // ----------------------------------------------------------------------------
 // State: State00
 //
